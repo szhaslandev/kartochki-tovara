@@ -1,0 +1,19 @@
+.button {
+  height: 37px;
+  padding-inline: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-light);
+  background-color: var(--color-accent);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--border-radius-small);
+  transition-duration: var(--transition-duration);
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &:active {
+    scale: 0.97;
+  }
+}
