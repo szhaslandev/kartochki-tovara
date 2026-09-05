@@ -1,0 +1,9 @@
+.cards {
+  padding: 20px;
+  background-color: var(--color-dark);
+}
+
+.cards__list {
+  display: flex;
+  column-gap: 20px;
+}
